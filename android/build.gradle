@@ -1,0 +1,11 @@
+// Root-level build.gradle file (Groovy syntax)
+buildscript {
+    repositories {
+        google()  // Ensure you have this repository
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.6.3"
+        classpath "com.google.gms:google-services:4.4.2"  // Add this line
+    }
+}
